@@ -19,7 +19,6 @@ export const Header: React.FC = () => {
   function handleUserAuth() {
     //usuario nao esta logado
     if (user === null) {
-      // despachar a action de login
       dispatch({
         type: "user/login",
         payload: {
